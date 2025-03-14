@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class PerformanceMonitorAspect {
 
-    private final Logger logger = LoggerFactory.getLogger(PerformanceMonitorAspect.class);
+    private static final Logger logger = LoggerFactory.getLogger(PerformanceMonitorAspect.class);
 
     @Around("execution(* com.esraa.jobportalbackend.service.JobService.*(..) )")
     public Object monitorTime(ProceedingJoinPoint pjp) throws Throwable {
