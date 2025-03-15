@@ -5,6 +5,8 @@ import jakarta.persistence.Id;
 import lombok.*;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Data
@@ -21,6 +23,8 @@ public class JobModel{
     private String postDesc;
     private int reqExperience;
     private List<String> postTechStack;
+
+
 
 
 
