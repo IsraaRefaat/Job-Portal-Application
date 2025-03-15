@@ -10,11 +10,17 @@ A Spring Boot REST API for managing job postings. This backend allows users to c
 - Update existing job posts
 - Delete job posts
 - Load sample data
+- **User Registration & Authentication** (BCrypt password hashing)
+- **Spring Security Integration** (Basic authentication)
+- **Role-Based Access Control (RBAC) - Upcoming Feature**
+- **JWT Authentication - Upcoming Feature**
 
 ## 🛠️ Technologies Used
 - **Spring Boot** (REST API Development)
+- **Spring Security** (Authentication & Authorization)
 - **Spring Data JPA** (ORM for database interaction)
 - **PostgreSQL** (Relational Database)
 - **Hibernate** (JPA implementation)
 - **Lombok** (Boilerplate code reduction)
+- **BCryptPasswordEncoder** (Password Encryption)
 - **CORS** (Allows frontend requests from `http://localhost:3000`)
